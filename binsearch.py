@@ -1,5 +1,7 @@
 def binsearch(A,key):
-    m = len(A)-1 ; i = 0 ; j = m
+    m = len(A)-1 
+    i = 0
+    j = m
     while True:
         m = (j-i)//2+i # returns integer
         if A[m] == key:
